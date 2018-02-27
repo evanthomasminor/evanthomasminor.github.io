@@ -2,13 +2,11 @@
     font-family: 'Raleway', sans-serif;
 }
 body {
-    font-size: 120%;
-    
+    font-size: 120%;  
     background-image: url("http://www.dreamtemplate.com/dreamcodes/bg_images/color/c12.jpg");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: right top;
 }
-
 h1{
     text-align: center;
     color: black;
@@ -16,20 +14,17 @@ h1{
 img{
     border-radius: 10%;
     size: 200;
-   
+    text-align: center;
 }
-
 div.picSummary {
     display: inline-block;
     border: double;
 }
-
-
 div.strengths {
     display: inline-block;
-    margin: 30px;
-
+    margin: 100px;
 }
 div.contactInfo {
-    padding: 0%;
+    text-align: center;
+    border: double;
 }
