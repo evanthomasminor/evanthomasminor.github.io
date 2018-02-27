@@ -1,0 +1,35 @@
+*{
+    font-family: 'Raleway', sans-serif;
+}
+body {
+    font-size: 120%;
+    
+    background-image: url("http://www.dreamtemplate.com/dreamcodes/bg_images/color/c12.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+img{
+    border-radius: 10%;
+    size: 200;
+   
+}
+
+div.picSummary {
+    display: inline-block;
+    border: double;
+}
+
+
+div.strengths {
+    display: inline-block;
+    margin: 30px;
+
+}
+div.contactInfo {
+    padding: 0%;
+}
