@@ -1,1 +1,0 @@
-# evanthomasminor.github.io
