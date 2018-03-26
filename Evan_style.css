@@ -1,0 +1,121 @@
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+.wrapper {
+    background-color: rgb(208, 253, 255);
+    display: grid;
+    grid-gap: 10px;
+}
+
+@media (min-width: 768px) { 
+    .wrapper {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+        '. heading heading .'
+        'image about about about'
+        '. portfolioOfWorkHeader portfolioOfWorkHeader .'
+        'firstProject secondProject thirdProject fourthProject'
+        'education education education education'
+        'technicalExperience personalStrengths randomLifeAccomplishments randomLifeAccomplishments'
+        '. contactInfo contactInfo .';
+    }
+}
+
+@media (max-width: 767px) { 
+    .wrapper {
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+        'heading heading'
+        'image image'
+        'about about'
+        'portfolioOfWorkHeader portfolioOfWorkHeader'
+        'firstProject secondProject'
+        'thirdProject fourthProject'
+        'education education'
+        'technicalExperience personalStrengths'
+        'randomLifeAccomplishments randomLifeAccomplishments'
+        'contactInfo contactInfo';
+    }
+}
+
+@media (max-width: 480px) { 
+    .wrapper {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+        'heading'
+        'image'
+        'about'
+        'image'
+        'portfolioOfWorkHeader'
+        'firstProject'
+        'secondProject'
+        'thirdProject'
+        'fourthProject'
+        'education'
+        'technicalExperience'
+        'personalStrengths'
+        'randomLifeAccomplishments'
+        'contactInfo';
+    }
+}
+
+    .heading {
+        grid-area: heading;
+        text-align: center;
+    }
+    .image {
+        grid-area: image;
+        text-align: center;
+    }
+    .about {
+        grid-area: about;
+    }
+    .portfolioOfWorkHeader {
+        grid-area: portfolioOfWorkHeader;
+        text-align: center;
+    }
+    .firstProject {
+        grid-area: firstProject;
+        padding: 15px;
+    }
+    .secondProject {
+        grid-area: secondProject;
+        padding: 15px;
+    }
+    .thirdProject {
+        grid-area: thirdProject;
+        padding: 15px;
+    }
+    .fourthProject {
+        grid-area: fourthProject;
+        padding: 15px;
+    }
+    .education {
+        grid-area: education;
+        padding-left: 15px;
+    }
+    .technicalExperience {
+        grid-area: technicalExperience;
+        padding: 15px;
+
+    }
+    .personalStrengths {
+        grid-area: personalStrengths;
+        padding: 15px;
+
+    }
+    .randomLifeAccomplishments {
+        grid-area: randomLifeAccomplishments;
+        padding: 15px;
+
+    }
+    .contactInfo {
+        grid-area: contactInfo;
+        text-align: center;
+    }
+
+   
